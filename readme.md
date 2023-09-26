@@ -1,7 +1,7 @@
 # Server NodeJS
 Aplicação de uma API NodeJS com Fastify e Prisma
 
-### Projeto de um sistema de registro de memórias de usuários usando o framework Fastify e ORM Prisma no NodeJS.
+### Projeto de um sistema de registro de memórias de usuários usando o framework Fastify, ZOD para validar tipos e o ORM Prisma no NodeJS.
 
 ### Tecnologias
 - NodeJS
@@ -11,6 +11,7 @@ Aplicação de uma API NodeJS com Fastify e Prisma
 - ESLint
 - Typescript
 - TSX
+- Zod
 
 ### Como rodar o projeto
 
