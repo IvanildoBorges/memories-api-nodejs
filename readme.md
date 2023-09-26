@@ -1,7 +1,7 @@
 # Server NodeJS
 Aplicação de uma API NodeJS com Fastify e Prisma
 
-### Projeto de um sistema de streaming de video usando o framework Fastify no NodeJS.
+### Projeto de um sistema de registro de memórias de usuários usando o framework Fastify e ORM Prisma no NodeJS.
 
 ### Tecnologias
 - NodeJS
