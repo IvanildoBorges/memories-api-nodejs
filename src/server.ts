@@ -1,14 +1,10 @@
-import { PrismaClient } from '@prisma/client'
 import { fastify } from 'fastify'
+import { memoriesRoutes } from './routes/memories'
 
 const server = fastify()
-const prisma = new PrismaClient()
 
-server.get('/users', async () => {
-  const users = await prisma.user.findMany()
-
-  return users
-})
+// Registrar um arquivo de rotas separado
+server.register(memoriesRoutes)
 
 server
   .listen({
